@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #aa8ee5;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aa8ee5;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Ada's Website</h1>
+  <p>Project Milestone 1</p>
+</div>
+
+<div class="navbar">
+  <a href="Home.html">Home</a>
+  <a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+</div>
+
+  </div>
+  <div class="main">
+    <h2>Ada's Plans</h2>
+    <br>
+    <h2>Top 5 companies I would work for</h2>
+    <ul style="list-style-type:circle;">
+      <li>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+      <li>
+        <a href="https://www.amazon.com/" target="_blank">Amazon</a>
+      <li>
+        <a href="https://www.apple.com/" target="_blank">Apple</a>
+      <li>
+        <a href="https://www.samsung.com/global/galaxy/" target="_blank">Samsung</a>
+      <li>
+        <a href="https://www.microsoft.com/en-us/" target="_blank">Microsoft</a>
+          </li>
+    </ul>
+
+     <h2>Top 3 jobs I am interested in</h2>
+    <dl>
+      <dt>
+        <a href="https://www.bls.gov/ooh/management/computer-and-information-systems-managers.htm" target="_blank">Computer and Information Systems Manager</a>
+        <dd>Develop computer networks, handle technical issues, oversee training programs, and responsible for cost/benefit analysis
+</dd>
+      <dd>$159k/yearly
+      </dd>
+      <dd>16% job outlook
+      </dd>
+      <dd>Need a bachelor's degree with 5 or more years of experience
+      </dd>
+
+      <dt>
+        <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm" target="_blank">Computer and Information Research Scientist </a>
+        <dd>Utilize creativity and technical understanding to conceive new ways to solve a given problem, sorting through vast troves of data, improve cybersecurity and efficiency
+</dd>
+      <dd>$131k/yearly
+      </dd>
+      <dd>21% job outlook
+      </dd>
+      <dd>Need a master's degree
+      </dd>
+
+      <dt>
+        <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-systems-analysts.htm#:~:text=Computer%20systems%20analysts%2C%20sometimes%20called,the%20organization%20operate%20more%20efficiently." target="_blank">Computer Systems Analyst </a>
+        <dd>Improve efficiency through intelligent design and implementation of new computer systems
+</dd>
+      <dd>$99k/yearly
+      </dd>
+      <dd>9% job outlook
+      </dd>
+      <dd>Need a bachelor's degree
+      </dd>
+  </div>
+</div>
+</body>
+</html>
